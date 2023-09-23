@@ -117,7 +117,6 @@ class App extends React.Component<{}, AppState> {
 interface PlaceProps {
 	children: React.ReactNode;
 	option: string;
-	// eslint-disable-next-line @typescript-eslint/no-explicit-any
 	content?: any[];
 	handleSelect?: (value: string) => void;
 }
