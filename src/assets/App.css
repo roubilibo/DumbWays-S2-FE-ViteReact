@@ -1,0 +1,31 @@
+body {
+	font-family: sans-serif;
+	color: #343a40;
+	line-height: 1.15;
+	background-color: #fafafa;
+}
+
+select,
+option {
+	border-radius: 0.5rem;
+	border: 1px solid rgb(200, 200, 200);
+	text-align: left;
+	padding-top: 0.5rem;
+	padding-left: 4%;
+	padding-bottom: 0.5rem;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	padding: 1rem 3rem 0rem 3rem;
+	border-radius: 1rem;
+}
+
+.main {
+	background-color: #ffffffbc;
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+}
